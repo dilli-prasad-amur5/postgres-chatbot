@@ -18,6 +18,18 @@ For this implementation, only the first document is processed and converted into
 - **Query Response**: Utilizes `gpt-3.5-turbo` to generate responses to user queries based on the retrieved content.
 - **User Interface**: Offers a Streamlit web application for seamless interaction with the LLM.
 
+## **Environment Configuration**
+
+The project uses a `.env` file to store configuration details, such as database credentials and API keys. The `.env` file is ignored by Git and an example configuration file, `example.env`, is provided. Copy its contents into your `.env` file and fill in the necessary details.
+
+## **Run the Application**
+
+1. **Using Docker (Recommended)**:
+   Run the following docker command from root directory to build and start the services:
+   ```bash
+   docker-compose up --build
+
+Then, open your browser and navigate to http://localhost:8501 to access the Streamlit app.
 
 ## **Folder Structure**
 The project directory is organized as follows:

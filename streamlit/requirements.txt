@@ -1,0 +1,9 @@
+
+psycopg2==2.9.10
+pandas==2.2.3
+python-dotenv==1.0.1
+numpy
+PyPDF2==3.0.1
+openai==1.54.5
+pymupdf==1.24.14
+streamlit

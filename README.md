@@ -35,20 +35,25 @@ Then, open your browser and navigate to http://localhost:8501 to access the Stre
 The project directory is organized as follows:
 
 ```plaintext
-project/
-├── postgres/
-│   ├── Dockerfile
-│   ├── init.sql
-├── streamlit/
+postgres-chatbot/
+├── backend/
 │   ├── __init__.py
-│   ├── .env
-│   ├── app.py
+│   ├── main.py
+│   ├── utils.py
+├── database/
+│   ├── __init__.py
 │   ├── database.py
 │   ├── Dockerfile
+│   ├── init.sql
+├── pdf_processing/
+│   ├── __init__.py
 │   ├── file_processing.py
-│   ├── main.py
-│   ├── requirements.txt
-│   ├── utils.py
-├── .env
+├── streamlit_app/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── Dockerfile
+├── .gitignore
 ├── docker-compose.yml
+├── example.env
 ├── README.md
+├── requirements.txt
